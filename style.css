@@ -171,26 +171,30 @@ html {
   width: 80%;
 }
 
-.cta-form input {
+.cta-form input:not([type="checkbox"]) {
   font-size: 1.2rem;
   width: 98%;
   margin-bottom: 5px;
 }
 
-.cta-form input::-webkit-input-placeholder {
+.cta-form input:not([type="checkbox"])::-webkit-input-placeholder {
   text-align: center;
 }
 
-.cta-form input:-ms-input-placeholder {
+.cta-form input:not([type="checkbox"]):-ms-input-placeholder {
   text-align: center;
 }
 
-.cta-form input::-ms-input-placeholder {
+.cta-form input:not([type="checkbox"])::-ms-input-placeholder {
   text-align: center;
 }
 
-.cta-form input::placeholder {
+.cta-form input:not([type="checkbox"])::placeholder {
   text-align: center;
+}
+
+.cta-form .checkbox-title {
+  font-size: 0.5rem;
 }
 
 .cta-form .sub-btn {
@@ -226,5 +230,47 @@ html {
 
 .swiper-slide img {
   width: 14vw;
+}
+
+.showcase {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.showcase .window {
+  float: left;
+}
+
+.showcase .slider {
+  display: block;
+  list-style: none;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcase .slider .item {
+  display: block;
+  float: left;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
+
+.showcase .slider .item img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-transition: 0 linear left;
+  transition: 0 linear left;
+  opacity: 0.65;
+}
+
+.showcase .slider .item img:hover {
+  opacity: 1.0;
 }
 /*# sourceMappingURL=style.css.map */
