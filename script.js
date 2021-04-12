@@ -6,7 +6,7 @@ const swiper = new Swiper('.swiper-container', {
     pagination: {
       el: '.swiper-pagination',
     },
-    slidesPerView: 4,
+    slidesPerView: 7,
   
     // Navigation arrows
     navigation: {
