@@ -162,6 +162,15 @@ html {
   margin-bottom: 50px;
 }
 
+.sec-5 .bg-wraper {
+  background-color: rgba(78, 78, 78, 0.5);
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
 .cta-form input {
   font-size: 1.2rem;
   width: 98%;

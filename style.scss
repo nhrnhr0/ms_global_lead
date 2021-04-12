@@ -116,6 +116,16 @@ html {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 50px;
+
+    .bg-wraper {
+        background-color: rgba(78, 78, 78, 0.5);
+        border-radius: 25px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+        
+    }
     .cta {
     }
 }
