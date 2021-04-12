@@ -116,8 +116,19 @@ html {
   text-align: center;
 }
 
+.sec-3 .text {
+  background-color: rgba(34, 34, 34, 0.5);
+  border-radius: 15px;
+}
+
 .sec-4 {
   text-align: center;
+  background-color: rgba(167, 167, 167, 0.5);
+  -webkit-box-shadow: 5px -5px 5px 1px #000000, -5px -5px 5px 1px #000000, 5px 5px 5px 1px #000000, -5px -5px 5px 1px #000000;
+          box-shadow: 5px -5px 5px 1px #000000, -5px -5px 5px 1px #000000, 5px 5px 5px 1px #000000, -5px -5px 5px 1px #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .cta-form input {
@@ -161,5 +172,19 @@ html {
   -webkit-box-shadow: 3px 3px 3px #eee;
           box-shadow: 3px 3px 3px #eee;
   text-shadow: none;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.swiper-slide img {
+  width: 25vw;
 }
 /*# sourceMappingURL=style.css.map */

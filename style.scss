@@ -79,11 +79,23 @@ html {
     h2 {
         text-align: center;
     }
+    .text {
+        background-color: rgba(34, 34, 34, 0.5);
+        border-radius: 15px;;
+    }
     
 }
 
 .sec-4 {
     text-align: center;
+    background-color: rgba(167, 167, 167, 0.5);
+    box-shadow: 5px -5px 5px 1px #000000,
+                -5px -5px 5px 1px #000000,
+                5px 5px 5px 1px #000000,
+                -5px -5px 5px 1px #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
     .cta {
     }
 }
@@ -127,5 +139,16 @@ html {
 
             text-shadow: none;
         }
+    }
+}
+
+.swiper-slide {
+    display:flex;
+    //justify-content: center;
+    align-items: center;
+    margin: auto;
+    img {
+        width: 25vw;
+        
     }
 }
