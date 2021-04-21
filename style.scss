@@ -307,6 +307,7 @@ body {
                     transition-duration: 250ms;
                 }
                 .image-title {
+                    @include bg-gradient;
                     //display: none;
                     z-index: 1;
                 }
