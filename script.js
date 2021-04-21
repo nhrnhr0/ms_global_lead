@@ -1,5 +1,5 @@
 
-$(function () {
+/*$(function () {
   var $slider = $('.slider');
   var sizeImage = 200;
   var items = $slider.children().length;
@@ -34,7 +34,7 @@ $(function () {
       $first.stop();
     }
   }
-});
+});*/
 
 
 
