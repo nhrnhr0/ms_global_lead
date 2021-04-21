@@ -88,7 +88,14 @@ body {
     .logo {
         img {
             max-width: 100vw;
-            max-height: 200px;
+            max-height: 50px;
+        }
+    }
+
+    .sec-1-tema-image {
+        img{ 
+            width: 100%;
+            height: 300px;
         }
     }
 }
@@ -153,6 +160,17 @@ body {
         border-radius: 15px;;
     }
     
+
+    .cta-form {
+        .form-fields {
+            display: flex;
+            flex-direction: row;
+            * {
+                flex:1;
+                margin:30px;
+            }
+        }
+    }
 }
 
 .sec-4 {
