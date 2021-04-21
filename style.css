@@ -5,7 +5,6 @@
 }
 
 html {
-  direction: rtl;
   font-size: 2rem;
 }
 
@@ -38,6 +37,69 @@ body {
   color: white;
 }
 
+.cta-form input:not([type="checkbox"]) {
+  font-size: 1.2rem;
+  width: 98%;
+  margin-bottom: 5px;
+}
+
+.cta-form input:not([type="checkbox"])::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.cta-form input:not([type="checkbox"]):-ms-input-placeholder {
+  text-align: center;
+}
+
+.cta-form input:not([type="checkbox"])::-ms-input-placeholder {
+  text-align: center;
+}
+
+.cta-form input:not([type="checkbox"])::placeholder {
+  text-align: center;
+}
+
+.cta-form .checkbox-title {
+  font-size: 0.5rem;
+}
+
+.cta-form .sub-btn {
+  font-size: 1.2rem;
+  background: #57ff65;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 2px #eee;
+          box-shadow: 2px 2px 2px #eee;
+  text-shadow: none;
+}
+
+.cta-form .sub-btn:hover {
+  background: #27ff39;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 3px #eee;
+          box-shadow: 3px 3px 3px #eee;
+  text-shadow: none;
+}
+
+/* Disables the selection */
+.disableselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Chrome/Safari/Opera */
+  /* Konqueror */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge*/
+  user-select: none;
+  /* Non-prefixed version, currently 
+                                    not supported by any browser */
+}
+
 .scratchpad {
   width: 400px;
   height: 200px;
@@ -57,6 +119,7 @@ body {
 }
 
 .sec-1 {
+  direction: rtl;
   text-align: center;
 }
 
@@ -99,6 +162,7 @@ body {
 }
 
 .sec-2 {
+  direction: rtl;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,6 +228,10 @@ body {
 
 .sec-3 {
   text-align: center;
+}
+
+.sec-3 .workers-title {
+  direction: rtl;
 }
 
 .sec-3 .popup {
@@ -247,6 +315,7 @@ body {
 }
 
 .sec-5 {
+  direction: rtl;
   text-align: center;
   /*
     background-color: rgba(167, 167, 167, 0.5);
@@ -260,6 +329,25 @@ body {
   margin-bottom: 50px;
 }
 
+.sec-5 .cta-form .form-fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.sec-5 .cta-form .form-fields * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto;
+}
+
 .sec-5 .bg-wraper {
   /*
         background-color: rgba(78, 78, 78, 0.5);
@@ -271,51 +359,8 @@ body {
         */
 }
 
-.cta-form input:not([type="checkbox"]) {
-  font-size: 1.2rem;
-  width: 98%;
-  margin-bottom: 5px;
-}
-
-.cta-form input:not([type="checkbox"])::-webkit-input-placeholder {
-  text-align: center;
-}
-
-.cta-form input:not([type="checkbox"]):-ms-input-placeholder {
-  text-align: center;
-}
-
-.cta-form input:not([type="checkbox"])::-ms-input-placeholder {
-  text-align: center;
-}
-
-.cta-form input:not([type="checkbox"])::placeholder {
-  text-align: center;
-}
-
-.cta-form .checkbox-title {
-  font-size: 0.5rem;
-}
-
-.cta-form .sub-btn {
-  font-size: 1.2rem;
-  background: #57ff65;
-  color: #fff;
-  border: 1px solid #eee;
-  border-radius: 20px;
-  -webkit-box-shadow: 2px 2px 2px #eee;
-          box-shadow: 2px 2px 2px #eee;
-  text-shadow: none;
-}
-
-.cta-form .sub-btn:hover {
-  background: #27ff39;
-  color: #fff;
-  border: 1px solid #eee;
-  border-radius: 20px;
-  -webkit-box-shadow: 3px 3px 3px #eee;
-          box-shadow: 3px 3px 3px #eee;
-  text-shadow: none;
+#light-slider li img {
+  max-width: 100%;
 }
 
 .swiper-slide {
