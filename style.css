@@ -38,6 +38,46 @@ body {
   color: white;
 }
 
+#screach {
+  /*Downloaded from https://www.codeseek.co/loxis/html5-canvas-scratch-card-YWwqBJ */
+}
+
+#screach .container {
+  border: 3px solid #000;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#screach .container .canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#screach .container .inner {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+#screach .container .inner h1 {
+  background: url("https://pbs.twimg.com/profile_images/581025665727655936/9CnwZZ6j.jpg") no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 23px;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
 .sec-1 {
   text-align: center;
 }
