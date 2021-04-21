@@ -43,7 +43,7 @@ body {
 }
 
 .cta-form input:not([type="checkbox"]) {
-  font-size: 1.2rem;
+  font-size: 0.7rem;
   width: 98%;
   margin-bottom: 5px;
 }
@@ -69,18 +69,20 @@ body {
 }
 
 .cta-form .sub-btn {
-  font-size: 1.2rem;
-  background: #57ff65;
+  font-size: 0.6rem;
+  background: #45a348;
   color: #fff;
   border: 1px solid #eee;
   border-radius: 20px;
   -webkit-box-shadow: 2px 2px 2px #eee;
-          box-shadow: 2px 2px 2px #eee;
+  box-shadow: 2px 2px 2px #eee;
   text-shadow: none;
+  padding: 20PX;
+  margin-bottom: 10px;
 }
 
 .cta-form .sub-btn:hover {
-  background: #27ff39;
+  background: #7eef88;
   color: #fff;
   border: 1px solid #eee;
   border-radius: 20px;
@@ -382,15 +384,23 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  max-height: 30px;
 }
 
 .sec-5 .cta-form .form-fields * {
+  font-size: 0.7rem;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   margin-left: 10px;
   margin-right: 10px;
   height: auto;
+}
+
+.sec-5 .cta-form .form-fields .sub-btn {
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-top: 0px;
 }
 
 .sec-5 .bg-wraper {
