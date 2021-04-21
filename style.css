@@ -343,6 +343,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
 }
 
 .sec-4 .sec-4-images .img-wraper img {
@@ -352,12 +357,13 @@ body {
 
 .sec-4 .sec-4-images .img-wraper .image-title {
   display: block;
-  position: absolute;
   bottom: 0;
   color: black;
   font-weight: bold;
   width: 100%;
   background-color: #aaa;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .sec-4 .sec-4-images .img-wraper:hover img, .sec-4 .sec-4-images .img-wraper:focus img {

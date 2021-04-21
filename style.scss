@@ -280,6 +280,9 @@ body {
             justify-content: center;
             align-items: center;
             display: flex;
+            display: flex;
+            flex-direction: column-reverse;
+
             
             img {
                 width: 100%;
@@ -287,12 +290,14 @@ body {
             }
             .image-title {
                 display: block;
-                position: absolute;
+                //position: absolute;
                 bottom: 0;
                 color:black;
                 font-weight: bold;
                 width: 100%;
                 background-color: #aaa;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
             }
 
             &:hover,
