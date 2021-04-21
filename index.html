@@ -44,20 +44,13 @@
         
               <div id="demo1" class="scratchpad"></div>
               <div id="demo1-percent">&nbsp;</div>
-              <input type="button" value="Reset" onclick="$('#demo1').wScratchPad('reset');"/>
-              <input type="button" value="Clear" onclick="$('#demo1').wScratchPad('clear');"/>
-              <input type="button" value="Enable" onclick="$('#demo1').wScratchPad('enable', true);"/>
-              <input type="button" value="Disable" onclick="$('#demo1').wScratchPad('enable', false);"/>
               <script type="text/javascript" src="./wScratchPad.min.js"></script>
               <script type="text/javascript">
                 $('#demo1').wScratchPad({
-                  bg: './screach_front.svg',
-                  fg: './screach_back.svg',
+                  bg: './screach2.svg',
+                  fg: './screach1.svg',
                   size:20,
                   cursor: 'url("./coin.png") 5 5, default',
-                  scratchMove: function (e, percent) {
-                    $('#demo1-percent').html(percent);
-                  }
                 });
               </script>
               
