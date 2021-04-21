@@ -40,7 +40,7 @@
 
 $(document).ready(function() {
   $("#light-slider").lightSlider({
-    item: 8,
+    item: 6,
             autoWidth: false,
             slideMove: 1, // slidemove will be 1 if loop is true
             slideMargin: 10,
