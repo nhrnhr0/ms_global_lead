@@ -1,4 +1,4 @@
-<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="70" xmlns="http://www.w3.org/2000/svg">
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
  <defs>
   <linearGradient spreadMethod="pad" id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -11,7 +11,7 @@
  </defs>
  <g id="Layer_1">
   <title>Layer 1</title>
-  <rect id="svg_1" fill="url(#gradient)" x="0" y="0" height="100%" width="100%"/>
-  <text xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="75" id="svg_2" y="126" x="72.75781" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" stroke="null" fill="#000000">גרד אותי</text>
+  <rect id="svg_1" fill="url(#gradient)" height="100" width="200" y="-15" x="0" stroke="null"/>
+  <text xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="31" id="svg_2" y="81.61922" x="408.83989" stroke-opacity="null" stroke-dasharray="null" stroke-width="0" fill="#000000" stroke="null" transform="matrix(1.8367 0 0 1.50708 -747.496 -71.8614)">גרד אותי</text>
  </g>
 </svg>
