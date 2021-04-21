@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="0%" x2="100%" y1="0%" x1="0%" id="gradient" spreadMethod="pad">
+   <stop stop-color="#d8e3e7" offset="0%"/>
+   <stop stop-color="rgb(144, 150, 153)" offset="15%"/>
+   <stop stop-color="#d8e3e7" offset="50%"/>
+   <stop stop-color="rgb(144, 150, 153)" offset="85%"/>
+   <stop stop-color="#d8e3e7" offset="100%"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" fill="url(#gradient)" x="0" y="0" height="100%" width="100%"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="sans-serif" font-size="120" id="svg_2" y="342" x="167.17188" stroke-width="0" stroke="#000" fill="#000000">גרדו אותי</text>
+ </g>
+</svg>

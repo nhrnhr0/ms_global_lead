@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M.S Global</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+
     <!--
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     -->
@@ -36,18 +39,30 @@
         <h4>
             לראשונה בישראל אנו חושפים את השיטה המוכחת ביותר בעולם לשיווק העסק שלכם...
         </h4>
-        <div id="screach">
-            <div class="container" id="js-container">
-                <canvas class="canvas" id="js-canvas" width="300" height="300"></canvas>
-                <div class="inner" style="visibility: hidden;">
-                    <h1>חולצות מודפסות!</h1>
-                </div>
+        <div id="content">
+            <div class="content-box">
+        
+              <div id="demo1" class="scratchpad"></div>
+              <div id="demo1-percent">&nbsp;</div>
+              <input type="button" value="Reset" onclick="$('#demo1').wScratchPad('reset');"/>
+              <input type="button" value="Clear" onclick="$('#demo1').wScratchPad('clear');"/>
+              <input type="button" value="Enable" onclick="$('#demo1').wScratchPad('enable', true);"/>
+              <input type="button" value="Disable" onclick="$('#demo1').wScratchPad('enable', false);"/>
+              <script type="text/javascript" src="./wScratchPad.min.js"></script>
+              <script type="text/javascript">
+                $('#demo1').wScratchPad({
+                  bg: './screach_front.svg',
+                  fg: './screach_back.svg',
+                  size:20,
+                  cursor: 'url("./coin.png") 5 5, default',
+                  scratchMove: function (e, percent) {
+                    $('#demo1-percent').html(percent);
+                  }
+                });
+              </script>
+              
             </div>
-            <h3>
-                אתם בטח כועסים שלא חידשנו לכם כלום ועדיין למעלה ממחצית העסקים בעולם עובדים יום יום ללא המותג של עצמם!!
-            </h3>
-        </div>
-
+          </div>
     </div>
     <div class="container sec-2 bg-color-primary">
         <div class="content">
