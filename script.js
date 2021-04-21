@@ -51,12 +51,12 @@ $(document).ready(function() {
             cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
             easing: 'linear', //'for jquery animation',////
 
-            speed: 400, //ms'
+            speed: 500, //ms'
             auto: true,
             pauseOnHover: true,
             loop: true,
             slideEndAnimation: true,
-            pause: 2000,
+            pause: 1000,
 
             keyPress: false,
             controls: true,
