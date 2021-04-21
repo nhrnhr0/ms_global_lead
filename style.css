@@ -4,6 +4,11 @@
   --clr-primary-grey: hsl(0, 0%, 90%);
 }
 
+* {
+  font-family: 'Rubik';
+  font-style: normal;
+}
+
 html {
   font-size: 2rem;
 }
