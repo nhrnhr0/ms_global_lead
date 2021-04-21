@@ -112,6 +112,11 @@ body {
   height: 70px;
   border: solid 1px;
   margin: auto;
+  border-radius: 25px;
+}
+
+.scratchpad > * {
+  border-radius: 25px;
 }
 
 .scratchpad canvas {

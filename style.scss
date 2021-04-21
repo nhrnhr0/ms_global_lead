@@ -111,6 +111,10 @@ body {
     height: 70px;
     border: solid 1px;
     margin:auto;
+    border-radius: 25px;
+    & > * {
+        border-radius: 25px;
+    }
     
     canvas {
         //width: 100%;
