@@ -14,7 +14,9 @@ html {
 }
 
 body {
-  background-color: var(--clr-primary-grey);
+  background: #c7c7c7;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #c7c7c7), color-stop(50%, white), color-stop(90%, #c7c7c7));
+  background: linear-gradient(90deg, #c7c7c7 10%, white 50%, #c7c7c7 90%);
 }
 
 .mark-strong {
