@@ -8,16 +8,6 @@ body {
   background-image: repeating-linear-gradient(to left, #f9f295 0%, #e0aa3e 25%, #f9f295 50%, #e0aa3e 75%, #f9f295 100%);
   background-image: -ms-repeating-linear-gradient(right, #f9f295 0%, #e0aa3e 25%, #f9f295 50%, #e0aa3e 75%, #f9f295 100%);
   /* IE8- CSS hack */
-}
-
-@media \0screen\,screen\9 {
-  body {
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff9f295", endColorstr="#fff9f295", GradientType=1);
-  }
-}
-
-.main-content {
-  min-height: calc(100vh - 120px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,21 +21,27 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.main-content .inner {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+@media \0screen\,screen\9 {
+  body {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff9f295", endColorstr="#fff9f295", GradientType=1);
+  }
+}
+
+body .inner {
   background-color: #494949;
   text-align: start;
   -webkit-box-shadow: -1px 1px 39px 4px black;
           box-shadow: -1px 1px 39px 4px black;
-  padding: 20px;
+  padding: 40px;
   border-radius: 25px;
   color: white;
 }
 
-.main-content .img-container {
+body .img-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

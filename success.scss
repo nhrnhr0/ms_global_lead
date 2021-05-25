@@ -16,21 +16,19 @@ body {
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff9f295", endColorstr="#fff9f295", GradientType=1);
 
     }
-}
-.main-content {
-    
-    min-height: calc(100vh - 120px);
+    //min-height: calc(100vh - 120px);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    height: 100vh;
+    overflow: hidden;
     .inner {
-        transform: scale(1.5);
+        //transform: scale(1.5);
         background-color: #494949;
         text-align: start;
         box-shadow: -1px 1px 39px 4px rgba(0,0,0,1);
-        padding: 20px;
+        padding: 40px;
         border-radius: 25px;
         color: white;
     }
