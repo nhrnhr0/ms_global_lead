@@ -174,9 +174,13 @@ body {
   max-height: 50px;
 }
 
+.sec-1 .sec-1-tema-image {
+  overflow: hidden;
+}
+
 .sec-1 .sec-1-tema-image img {
   width: 100%;
-  height: 300px;
+  height: 100%;
 }
 
 .sec-2 {
@@ -521,5 +525,65 @@ body {
 
 #footer a {
   color: #60a142;
+}
+
+@media screen and (max-width: 1226px) {
+  .sec-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sec-3 .workers-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .sec-5 .cta-form .form-fields {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-height: -webkit-max-content;
+    max-height: -moz-max-content;
+    max-height: max-content;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sec-5 .cta-form .form-fields .img-wraper {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 738px) {
+  .sec-4 .sec-4-images {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .sec-1 .sec-1-tema-image img {
+    width: 150%;
+    height: 100%;
+  }
+  .sec-2 .first-form {
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+  .sec-2 .first-form .picture-wraper .picture {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .sec-1 .sec-1-tema-image img {
+    width: 200%;
+    height: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

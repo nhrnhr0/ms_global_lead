@@ -40,7 +40,32 @@
 
 $(document).ready(function() {
   $("#light-slider").lightSlider({
-    item: 6,
+    responsive : [
+      {
+        breakpoint:1200,
+        settings: {
+            item:4,
+            slideMove:1,
+            slideMargin:6,
+          }
+    },
+      {
+          breakpoint:800,
+          settings: {
+              item:2,
+              slideMove:1,
+              slideMargin:6,
+            }
+      },
+      {
+          breakpoint:480,
+          settings: {
+              item:1,
+              slideMove:1
+            }
+      }
+  ],
+            item:6,
             autoWidth: false,
             slideMove: 1, // slidemove will be 1 if loop is true
             slideMargin: 10,
@@ -82,7 +107,6 @@ $(document).ready(function() {
             freeMove:true,
             swipeThreshold: 40,
 
-            responsive : [],
 
             onBeforeStart: function (el) {},
             onSliderLoad: function (el) {},
