@@ -540,6 +540,28 @@ body {
 }
 
 @media screen and (max-width: 840px) {
+  .sec-2 {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    -webkit-margin-before: 0px;
+            margin-block-start: 0px;
+    -webkit-margin-after: 0px;
+            margin-block-end: 0px;
+    -webkit-padding-before: 0px;
+            padding-block-start: 0px;
+    -webkit-padding-after: 0px;
+            padding-block-end: 0px;
+    margin: auto;
+  }
+  .sec-2 .content ul li:not(:last-child) {
+    padding-bottom: 20px;
+  }
+  .sec-2 .content li {
+    list-style: none;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
   .sec-5 .cta-form .form-fields {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
