@@ -5,6 +5,8 @@
     //--clr-bg-img: 
     --green-layout: hsl(120, 55%, 68%);
     --clr-primary-grey: hsl(0, 0%, 90%);
+
+    --defualt-font: 1.2rem;
 }
 
 
@@ -150,10 +152,13 @@ body {
     h3 {
         margin-block-start: 0;
         margin-block-end: 0;
+        font-size: var(--defualt-font);
     }
     h4 {
         margin-block-start: 0;
         margin-block-end: 0;
+        font-size: var(--defualt-font);
+
     }
     .logo {
         img {
@@ -182,7 +187,7 @@ body {
     margin: auto;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+    font-size: var(--defualt-font);
     .content {
         flex: 1;
         display: flex;
@@ -194,12 +199,6 @@ body {
         text-align: center;
         img{
             max-height: 75px;
-        }
-        ul {
-            font-size: 1.2rem;
-        }
-        .part-4 {
-            font-size: 1.2rem;
         }
     }
 
@@ -251,7 +250,9 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
 .sec-3 {
     text-align: center;
+    font-size: var(--defualt-font);
     .workers-title {
+        font-size: var(--defualt-font);
         direction: rtl;
         margin-top: 0px;
         margin-block-start: 0px;
@@ -259,7 +260,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
     }
     .slider-wraper {
         .slider-title {
-            font-size: 3rem;
+            //font-size: 3rem;
         }
     }
     .popup {
@@ -327,6 +328,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
                 display: block;
                 //position: absolute;
                 bottom: 0;
+                font-size: var(--defualt-font);
                 color:black;
                 font-weight: bold;
                 width: 100%;
@@ -352,6 +354,7 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 .sec-5 {
+    font-size: var(--defualt-font);
     direction: rtl;
     text-align: center;
     width: 90%;
