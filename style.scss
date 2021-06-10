@@ -71,16 +71,6 @@ body {
     }
 
     .sub-btn {
-        /*font-size: 0.6rem;
-        background: #45a348;
-        color: #fff;
-        border: 1px solid #eee;
-        border-radius: 20px;
-        -webkit-box-shadow: 2px 2px 2px #eee;
-        box-shadow: 2px 2px 2px #eee;
-        text-shadow: none;
-        padding: 20PX;
-        margin-bottom: 10px;*/
         color: #fff;
         background-color: #28a745;
         border-color: #28a745;
@@ -93,33 +83,19 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    border: 1px solid transparent;
+    //border: 1px solid transparent;
+    border: 1px solid #eee;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
+    margin-bottom: 5px;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-/*
-        &:hover {
-            background: #7eef88;
-
-            color: #fff;
-
-            border: 1px solid #eee;
-
-            border-radius: 20px;
-
-            box-shadow: 3px 3px 3px #eee;
-
-            text-shadow: none;
-        }
-        */    
         &:hover {
             color: #fff;
             background-color: #218838;
             border-color: #1e7e34;
         }
-
     }
 }
 
@@ -393,18 +369,18 @@ box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
 
             display: flex;
             flex-direction: row;
-            max-height: 30px;
+            //max-height: 30px;
             * {
-                font-size: 0.7rem;
-                flex:1;
-                margin-left: 10px;
-                margin-right: 10px;
-                height: auto;
+                //font-size: 0.7rem;
+                //flex:1;
+                margin-left: 15px;
+                margin-right: 15px;
+                //height: auto;
             }
             .sub-btn {
-                margin-top: 0;
+                /*margin-top: 0;
                 margin-bottom: 0px;
-                padding-top: 0px;
+                padding-top: 0px;*/
             }
         }
     }
